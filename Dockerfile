@@ -1,5 +1,5 @@
 
-FROM fusuf/whatsasena:latest
+FROM ravindu01manoj/sewqueen:lovegift
 
 RUN git clone https://github.com/ravindu01manoj/QueenSewWhatsappBot /root/QueenSewWhatsappBot
 WORKDIR /root/QueenSewWhatsappBot/
