@@ -1,109 +1,110 @@
 {
-    "name": "✧ Sew Queen ✧",
-    "description": "✧ Sew Queen ✧ World Best Whatsapp User Bot...✧",
-    "logo": "https://i.ibb.co/JkjKGTy/temp-user-profile1621662133773.jpg",
-    "keywords": ["whatsapp", "userbot", "sew", "sewqueen", "bot", "api", "ai"],
-    "repository": "",
-    "website":   "https://t.me/RavinduManoj",
-    "success_url": "https://t.me/AsenaSupport",
+    "name": "✬Sew Queen✬",
+    "description": "World Best Whatsapp Bot",
+    "logo": "https://i.ibb.co/GnqjtyG/164ff8587741.jpg",
+    "keywords": ["sew", "sewqueen"],
     "stack": "container",
     "env": {
         "_SEW_QUEEN_SESSION": {
-            "description": "Type here yours SEW_QUEEN Session.QR කෝඩය ස්කෑන් කර ලබා ගන්නා කේතය ඇතුලත් කරන්න",
+            "description": "Scan the QR code and enter the code obtained. QR කෝඩය ස්කෑන් කර ලබා ගන්නා කේතය ඇතුලත් කරන්න",
             "required": true
         },
-        "SUDO": {
-            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 94xxxxxxxx (USA number +94)",
-            "required": false
-        },
         "LANGUAGE": {
-            "description": "Bot language.English => en, භාශාව තේරීම සදහා",
+            "description": "Enter the language you want (EN or SI), ඔබට අවශ්‍ය භාෂාව ඇතුලත් කරන්න.. (EN හො SI)",
             "required": true,
             "value": "en"
         },
-        "ANTİ_LİNK": {
-            "description": "Link Blocking System.ගෲපයට කෙනෙකු ලින්ක් එකක් ඇතුලත් කලහොත් ඔහුව ගෲපයෙන් නෙරපා දමයි",
+        "S_DOWN_SONG": {
+            "description": "Enter the audio download message... ශබ්ද බාගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
+            "required": true,
+            "value": "_*I'm Searching your song*_ ✨➾🔎"
+        },
+        "S_UP_SONG": {
+            "description": "Enter the audio upload message... ශබ්ද උඩුගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
+            "required": true,
+            "value": "_*Im Uploading your song*_ ✨➾🎲"
+        },
+        "S_DOWN_VID": {
+            "description": "Enter the video download message... වීඩියෝ බාගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
+            "required": true,
+            "value": "_*I'm Bringing your video*_ ✨➾🔎"
+        },
+        "S_UP_VID": {
+            "description": "Enter the video upload message... වීඩියෝ උඩුගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
+            "required": true,
+            "value": "_*Im Uploading your video*_ ✨➾🎲"
+        },
+        "MENU_HEADER": {
+            "description": "ITS CHANGE YOUR CMD LIST HEADER",
+            "required": true,
+            "value": "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃   *SEW QUEEN WHATSAPP BOT*\n┗━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n THIS IS SEW QUEEN CMD MENU"
+        },
+        "GROUP_MANAGE": {
+            "description": "If you want the admin in the group to be able to use the admin command too, enter true. සමූහය තුල සිටින ඇඩ්මින් හටද ඇඩ්මින් විදාන භාවිතා කිරීමට හැකි සේ සැකසීම අවශ්‍යයි නම් true ලෙස ඇතුලත් කරන්න",
+            "required": true,
+            "value": "false"
+        },
+        "ANTI_LINK": {
+            "description": "If someone inserts a link into the group and wants to remove him from the group, enter true..සමූහයට කෙනෙකු ලින්ක් එකක් ඇතුලත් කලහොත් ඔහුව ගෲපයෙන් නෙරපා දැමීමට අවශ්‍ය නම් true ලෙස ඇතුලත් කරන්න",
             "required": true,
             "value": "false"
         },
         "INBO_BLOCK": {
-            "description": "Inbox Blocking System. ඉන්බොක්ස් මැසේජ් දමන්නන් බ්ලොක් කරයි",
+            "description": "INBOX BLOCKING SYSTEM.. ඉන්බොක්ස් බ්ලොක් කිරීමේ පද්දතිය.. eg true/all or true/cmd or false",
             "required": true,
             "value": "false"
         },
-        "AUTO_BİO": {
-            "description": "Set true for auto date, time in biography.",
+        "SPAM_CMD": {
+            "description": "Changeble Spam CMD... ස්පෑම් සදහා ඌ විදානය ලබා දෙන්න",
             "required": true,
-            "value": "false"
+            "value": "hunt"
+        },
+        "BAD_KICK": {
+            "description": "BAD WORD &  GROUP LINK KICKING SYSTEM.. අසබ්‍ය වචන හා ගෲප් ලින්ක් දමන්නන් ඉවත් කිරීමේ පද්දතිය",
+            "required": true,
+            "value": "true"
+        },
+        "ALIVE_LOGO": {
+            "description": "Add Your Alive Logo",
+            "required": false
+        },
+        "WARN_MSG": {
+            "description": "WANR KICK MASSAGE .. වර්න් ලබා දී කික් වන විට යෙදිය යුතු පණිවිඩය ඇතුලත් කරන්න",
+            "required": true,
+            "value": "*Your Times over Now.. So Good Bye*"
+        },
+        "WARN_COUNT": {
+            "description": "Input Warn Count",
+            "required": true,
+            "value": "3"
         },
         "HANDLERS": {
             "description": "For commands.",
             "required": true,
             "value": "^[.!;]"
         },
-        "BAD_KICK": {
-            "description": "It's true, kick the member who using bad word.අසභ්‍ය වචන පාවිච්චි කරන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
-            "required": true,
-            "value": "true"
-        },
-        "SPAM_KICK": {
-            "description": "It's true, kick the member who using spam.ස්පෑම් දමන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
-            "required": true,
-            "value": "true"
-        },
-        "VOICE_REPLY": {
-            "description": "If you likes bgm you can write 'true'. Otherwise false.ගැහැනුලමයෙකුගේ කටහඩින් auto voice රිප්ලයි යැවීම සදහා",
-            "required": false,
-            "value": "true"
-        },
         "CAPTION_NAME": {
-            "description": "කැප්ශන් එක වෙනස් කල හැකිය. you can change the caption",
+            "description": "කැප්ශන් එක ඇතුලත් කරන්න... Enter the Caption",
             "required": false
          },
-         "Y__GREETING_TYPE": {
-            "description": "welcome/goodbye මැසේජ් සදහා අවශය ආකාරය තෝරන්න.. ප්‍රොෆයිල් පික් එක සමග නම් pp ද ගිෆ් එකක් සමග නම් gif ලෙසද පින්තූරයක් සදහා img ලෙසද යොදන්න.",
-            "required": false,
-            "value": "pp"
-        },
-       "Y_WELLCOME": {
-            "description": "ඉහත තේරීම gif හෝ img නම් වෙල්කම් මැසේජ් එක සදහා gif හෝ img එකක direct link එකක් යොදන්න",
-            "required": false,
-            "value": "https://bit.ly/3yG3zk6"
-        },
-        "Y_GOODBYE": {
-            "description": "ඉහත තේරීම gif හෝ img නම් ගුඩ්බායි මැසේජ් එක සදහා gif හෝ img එකක direct link එකක් යොදන්න",
-            "required": false,
-            "value": "https://bit.ly/3lXyPHM"
-        },
-        "SYSTEM_IMAGE": {
-            "description": "කිලෝබයිට් 500ට අඩු පින්තූරයක ඩිරෙක්ට් ලින්ක් එකක් යොදන්න.add derect link for image",
-            "required": false,
-            "value": "https://bit.ly/3AyW139"
-        },
+        "IMGBB_API": {
+            "description": "Add the api i.ibb.co site..==> i.ibb.co සයිට් එකට ලොග් වී ලබා ගන්නා api එක ඇතුලත් කරන්න",
+            "required": false
+         },
           "ZZ_PASSWORD": {
-            "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර වීඩියෝව නරඹා එය ලබා ගන්න.password required.. watch the video",
+            "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර වීඩියෝව නරඹා එය ලබා ගන්න.password required.. watch the video ==> https://youtu.be/AKU7YVXxMbM",
             "required": true
          },
-         "AUTO_STICKER": {
-            "description": "If you likes bgm you can write 'true'. Otherwise false. auto ස්ටිකර්ස් රිප්ලයි යැවීම සදහා",
-            "required": false,
-            "value": "true"
-        },
         "OWNER_SHIP": {
-            "description": "බොට් අයිතිකරුගේ නාමය වෙනස් කරයි",
+            "description": "බොට් අයිතිකරුගේ නාමය ඇතුලත් කරන්න ==> Input The Owner Name",
             "required": false,
             "value": "RAVINDU MANOJ"
         },
         
         "YOUR_BOT_NAME": {
-            "description": "බොට්ගේ නාමය වෙනස් කරයි.",
+            "description": "බොට්ගේ නාමය ඇතුලත් කරන්න ==> Input The Bot Name",
             "required": false,
-            "value": "❄💘sew💓❄bot(💗සූටික්කි💗)R💌S"
-        },
-        "FULL_SEW": {
-            "description": "Turn your account into a chatbot!",
-            "required": true,
-            "value": "false"
+            "value": "✬ MS SEW ✬"
         },
         "NO_LOG": {
             "description": "Set true if you don't want to see error log.",
@@ -124,20 +125,10 @@
             "description": "Heroku API Key.",
             "required": true
         },
-        "PROXY": {
-            "description": " Proxy Address => http://some-host:1234",
-            "required": false,
-            "value": "false"
-        },
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
-        },
-        "BLOCK_CHAT": {
-            "description": "Choose in which chat the bot won't work there. Ex: 94xxxxxxx && 94xxxxxx or 905xxxx,905xxx...",
-            "required": false,
-            "value": "false"
         },
         "UNMUTE_MESSAGE": {
             "description": "Customizable Unmute Message! Use => default, to change back.",
@@ -173,9 +164,9 @@
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "Customizable Alive Message! Use => default, to change back.",
+            "description": "Customizable Alive Message! Use => default, to change back.  include {status} & {phoneinfo} & {sever} & {ratings} to add about chat & phone info & saver info & Your Ratings to your alive message",
             "required": false,
-            "value": "default"
+            "value": "Hello I Am Alive\n{ratings}\n {status} \n {phoneinfo} \n {sever}"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
@@ -212,8 +203,22 @@
             "required": true,
             "value": "https://i.hizliresim.com/loUtAb.jpg"
         },
+        "GROUP_MANAGE": {
+            "description": "Type true if you need allow admin to use admin command",
+            "required": false,
+            "value": "false"
+        },
+        "CLONE_MSG": {
+            "description": "This MSG will display after the clone end",
+            "required": false
+        },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.",
+            "required": false,
+            "value": "false"
+        },
+        "SEW_AI": {
+            "description": "Artificial Intelligence Chat Bot!",
             "required": false,
             "value": "false"
         },
