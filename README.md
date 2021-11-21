@@ -11,7 +11,7 @@
 
 ---
 > Deploy Your Bot On Heroku ✏
-<div align="left"><a href="https://dashboard.heroku.com/new?button-url=https://github.com/ravindu01manoj/Sew-Queen&template=https://github.com/ravindu01manoj/Sew-Queen"><img src="https://i.ibb.co/WPRfjrZ/c6eb7d6b6606.png" width="150" ></a></div>
+<div align="left"><a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FSew01RaviduManoj01KingAndQueen%2FQueenSew1&template=https%3A%2F%2Fgithub.com%2FSewRavindu01ManojKing%2FQueenSew"><img src="https://i.ibb.co/WPRfjrZ/c6eb7d6b6606.png" width="150" ></a></div>
 
 ***
 <div aline='left'><h2> SEW QUEEN TEAM </h2></div>
@@ -40,7 +40,7 @@ $ pkg install nodejs && pkg install git
 ```
 
 ```
-$ git clone https://github.com/Sew01RaviduManoj01KingAndQueen/sew.git
+$ git clone https://github.com/ravindu01manoj/qr.git
 $ cd qr
 $ npm i
 $ node sew.js
@@ -50,4 +50,3 @@ $ node sew.js
 $ cd qr
 $ node sew.js
 ```
-<div align="left"><a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FSew01RaviduManoj01KingAndQueen%2FQueenSew1&template=https%3A%2F%2Fgithub.com%2Fravindu01manoj%2F"><img src="https://i.ibb.co/WPRfjrZ/c6eb7d6b6606.png" width="150" ></a></div>
