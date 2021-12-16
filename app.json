@@ -64,10 +64,6 @@
             "required": true,
             "value": "true"
         },
-        "ALIVE_LOGO": {
-            "description": "Add Your Alive Logo",
-            "required": false
-        },
         "WARN_MSG": {
             "description": "WANR KICK MASSAGE .. වර්න් ලබා දී කික් වන විට යෙදිය යුතු පණිවිඩය ඇතුලත් කරන්න",
             "required": true,
